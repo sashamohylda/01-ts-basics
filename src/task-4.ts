@@ -1,5 +1,10 @@
 function printUserInfo(name: string, age: number, email?: string): void {
-  console.log(name, age, email);
+  console.log('Name:', name);
+  console.log('Age:', age);
+
+  if (email) {
+    console.log('Email:', email);
+  }
 }
 
 printUserInfo('Alex', 25);
