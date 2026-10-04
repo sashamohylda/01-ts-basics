@@ -4,20 +4,17 @@ const ratings: number[] = [5, 4, 3];
 
 interface Product {
   id: number;
-  name: string;
-  price: number;
+  title: string;
 }
 
 const products: Product[] = [
   {
     id: 1,
-    name: 'Laptop',
-    price: 1200,
+    title: 'Laptop',
   },
   {
     id: 2,
-    name: 'Phone',
-    price: 800,
+    title: 'Phone',
   },
 ];
 
